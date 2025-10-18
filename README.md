@@ -1,7 +1,7 @@
 # Profile Card Component
 
-Live demo: https://yourusername.github.io/profile-card-component/  
-Repo: https://github.com/yourusername/profile-card-component
+Live demo: https://manuel-1224.github.io/profile-card-component/  
+Repo: https://github.com/manue-1224/profile-card-component
 
 ## How to run locally
 1. Open `index.html` in your browser (no build needed).
