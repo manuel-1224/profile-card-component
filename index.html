@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="main-container">
+    <article class="profile-card" data-testid="test-profile-card">
+      
+      <!-- Avatar -->
+      <figure class="avatar">
+        <img 
+          src="https://imgur.com/a/4iKJics" 
+          alt="Profile photo of Emmanuel Chikelu"
+          data-testid="test-user-avatar"
+        />
+      </figure>
+
+      <!-- Info Section -->
+      <div class="profile-content">
+        <header>
+          <h2 class="user-name" data-testid="test-user-name">Emmanuel Chikelu</h2>
+        </header>
+
+        <p class="bio" data-testid="test-user-bio">
+          Frontend enthusiast who loves turning creative ideas into interactive experiences.
+        </p>
+
+        <p class="time">
+          Current time (ms): 
+          <span id="user-time" data-testid="test-user-time"></span>
+        </p>
+
+        <nav aria-label="Social Links" class="social-links" data-testid="test-user-social-links">
+          <ul>
+            <li><a href="https://x.com/Manuel_SeeJay" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+            <li><a href="https://github.com/manuel-1224" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/chijindu-chikelu-b5958724a" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+          </ul>
+        </nav>
+
+        <section aria-labelledby="hobbies-title">
+          <h3 id="hobbies-title">Hobbies</h3>
+          <ul data-testid="test-user-hobbies">
+            <li>Designing interfaces</li>
+            <li>Watching tech talks</li>
+            <li>Playing football</li>
+          </ul>
+        </section>
+
+        <section aria-labelledby="dislikes-title" id="dislike">
+          <h3 id="dislikes-title">Dislikes</h3>
+          <ul data-testid="test-user-dislikes">
+            <li>Cluttered UI</li>
+            <li>Slow internet</li>
+            <li>Messy code</li>
+          </ul>
+        </section>
+      </div>
+    </article>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
